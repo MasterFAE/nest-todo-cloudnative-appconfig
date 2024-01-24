@@ -22,6 +22,8 @@ spec:
         - image: faemeister/nest-todo_api
           name: nest-todo-api
           env:
+            - name: 'API_HTTP_PORT'
+              value: '3000'
             - name: 'PROMETHEUS_METRIC_PATH'
               value: '/metrics'
             - name: 'AUTH_SERVICE_HOST'

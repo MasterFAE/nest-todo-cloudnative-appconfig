@@ -2,7 +2,7 @@ global:
   scrape_interval: 15s
   evaluation_interval: 15s
 
-# kubectl patch ds monitoring-prometheus-node-exporter --type "json" -p "[{\"op\": \"remove\", \"path\" : \"/spec/template/spec/containers/0/volumeMounts/2/mountPropagation\"}]"
+# kubectl patch ds grafana-prometheus-node-exporter --type "json" -p "[{\"op\": \"remove\", \"path\" : \"/spec/template/spec/containers/0/volumeMounts/2/mountPropagation\"}]"
 
 prometheus:
   alertmanager:
