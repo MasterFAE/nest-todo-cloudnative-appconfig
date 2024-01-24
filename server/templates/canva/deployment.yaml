@@ -19,7 +19,7 @@ spec:
         prometheus.io/path: '/metrics'
     spec:
       containers:
-        - image: faemeister/nest-todo_canva
+        - image: faemeister/nest-todo_canva:latest
           name: nest-todo-canva
           ports:
             - containerPort: 50051

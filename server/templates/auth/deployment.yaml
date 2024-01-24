@@ -19,7 +19,7 @@ spec:
         prometheus.io/path: '/metrics'
     spec:
       containers:
-        - image: faemeister/nest-todo_auth
+        - image: faemeister/nest-todo_auth:latest
           name: nest-todo-auth
           ports:
             - containerPort: 50051

@@ -19,7 +19,7 @@ spec:
         prometheus.io/path: '/metrics'
     spec:
       containers:
-        - image: faemeister/nest-todo_todo
+        - image: faemeister/nest-todo_todo:latest
           name: nest-todo-todo-8hglp
           ports:
             - containerPort: 50051
