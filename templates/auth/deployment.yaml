@@ -34,7 +34,7 @@ spec:
             - name: 'PROMETHEUS_METRIC_PATH'
               value: '/metrics'
             - name: 'AUTH_SERVICE_HOST'
-              value: '0.0.0.0'
+              value: 'auth-service'
             - name: 'AUTH_SERVICE_PORT'
               value: '50051'
             - name: 'AUTH_SERVICE_HTTP_PORT'
