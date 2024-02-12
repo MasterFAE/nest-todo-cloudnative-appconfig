@@ -24,12 +24,6 @@ version: 0.1.0
 appVersion: '1.16.0'
 
 dependencies:
-  - name: argocd
-    version: '5.53.8'
-    repository: https://argoproj.github.io/argo-helm
-  - name: sealed-secrets
-    version: '2.14.2'
-    repository: https://bitnami-labs.github.io/sealed-secrets
   - name: prometheus
     version: '25.10.0'
     repository: https://prometheus-community.github.io/helm-charts
